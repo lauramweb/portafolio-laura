@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
 <body>
 
     <!-- HEADER -->
@@ -47,7 +50,7 @@
 
     <!-- SOBRE MI -->
 
-<section id="sobre-mi">
+<section id="sobre-mi" data-aos="fade-up">
 
     <h2>Sobre mí</h2>
 
@@ -81,7 +84,7 @@
 </section>
 
     <!-- SERVICIOS -->
-    <section id="servicios">
+    <section id="servicios" data-aos="fade-up">
 
         <h2>Servicios</h2>
 
@@ -117,7 +120,7 @@
 
     <!-- TECNOLOGIAS -->
 
-<section id="tecnologias">
+<section id="tecnologias" data-aos="fade-up">
 
     <h2>Tecnologías</h2>
 
@@ -163,7 +166,7 @@
 </section>
 
     <!-- PROYECTOS -->
-    <section id="proyectos">
+    <section id="proyectos" data-aos="fade-up">
 
         <h2>Proyectos</h2>
 
@@ -208,7 +211,7 @@
     </section>
 
     <!-- CONTACTO -->
-    <section id="contacto">
+    <section id="contacto" data-aos="fade-up">
 
     <h2>Contacto</h2>
 
@@ -254,6 +257,15 @@
     <i class="fab fa-whatsapp"></i>
 
 </a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1200,
+        once: true
+    });
+</script>
 
 </body>
 </html>
